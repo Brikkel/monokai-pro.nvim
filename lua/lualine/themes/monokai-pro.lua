@@ -41,11 +41,11 @@ M.inactive = {
   -- c = { bg = colors.base.black, fg = colors.base.black },
 }
 
-M.options = {
-  icons_enabled = true,
-  component_separators = { left = "╱", right = "╲" },
-  section_separators = { left = "", right = "" },
-}
+--M.options = {
+--  icons_enabled = true,
+--  component_separators = { left = "╱", right = "╲" },
+--  section_separators = { left = "", right = "" },
+--}
 
 --M.sections = {
 --  lualine_a = {
