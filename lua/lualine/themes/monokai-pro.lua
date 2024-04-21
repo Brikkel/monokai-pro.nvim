@@ -2,40 +2,40 @@ local colors = require("monokai-pro.colorscheme")
 
 local M = {}
 
-M.options = {
-  icons_enabled = true,
-  component_separators = { left = "╱", right = "╲" },
-  section_separators = { left = "", right = "" },
-}
+-- M.options = {
+--  icons_enabled = true,
+--  component_separators = { left = "╱", right = "╲" },
+--  section_separators = { left = "", right = "" },
+--}
 
-M.sections = {
-  lualine_a = {
-    {
-      function()
-        return ""
-      end, -- Invisible component just to set separator color
-      color = { fg = "#FFD866", bg = "background" }, -- First part of hack
-      padding = 0,
-    },
-    {
-      "mode",
-    },
-  },
-  lualine_b = { "branch", "diff", { "diagnostics", sources = { "nvim_diagnostic" } } },
-  lualine_c = { { "filename", file_status = true, path = 1 } },
-  lualine_x = { "encoding", "fileformat", "filetype" },
-  lualine_y = { "progress" },
-  lualine_z = {
-    { "location" },
-    {
-      function()
-        return ""
-      end,
-      color = { fg = "#FFD866", bg = "background" }, -- First part of hack
-      padding = 0,
-    },
-  },
-}
+--M.sections = {
+--  lualine_a = {
+--    {
+--      function()
+--        return ""
+--      end, -- Invisible component just to set separator color
+--      color = { fg = "#FFD866", bg = "background" }, -- First part of hack
+--      padding = 0,
+--    },
+--    {
+--      "mode",
+--    },
+--  },
+--  lualine_b = { "branch", "diff", { "diagnostics", sources = { "nvim_diagnostic" } } },
+--  lualine_c = { { "filename", file_status = true, path = 1 } },
+--  lualine_x = { "encoding", "fileformat", "filetype" },
+--  lualine_y = { "progress" },
+--  lualine_z = {
+--    { "location" },
+--    {
+--      function()
+--        return ""
+--      end,
+--      color = { fg = "#FFD866", bg = "background" }, -- First part of hack
+--      padding = 0,
+--    },
+--  },
+--}
 
 M.normal = {
   a = { bg = colors.base.yellow, fg = colors.base.black, gui = "bold" },
