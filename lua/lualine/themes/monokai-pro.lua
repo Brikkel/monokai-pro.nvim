@@ -3,7 +3,7 @@ local colors = require("monokai-pro.colorscheme")
 local M = {}
 
 M.normal = {
-  a = { bg = colors.base.yellow, fg = colors.base.black, gui = "bold" },
+  a = { bg = colors.base.yellow, fg = colors.statusBar.background, gui = "bold" },
   b = { bg = colors.base.dimmed5, fg = colors.base.yellow },
   c = {
     bg = colors.statusBar.background,
