@@ -16,7 +16,7 @@ M.normal = {
 }
 
 M.insert = {
-  a = { bg = colors.base.green, fg = colors.base.black },
+  a = { bg = colors.base.green, fg = colors.base.purple },
   b = { bg = colors.base.dimmed5, fg = colors.base.green },
 }
 
