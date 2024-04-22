@@ -16,29 +16,29 @@ M.normal = {
 }
 
 M.insert = {
-  a = { bg = colors.base.green, fg = colors.base.purple },
+  a = { bg = colors.base.green, fg = colors.base.background },
   b = { bg = colors.base.dimmed5, fg = colors.base.green },
 }
 
 M.command = {
-  a = { bg = colors.base.yellow, fg = colors.base.black },
+  a = { bg = colors.base.yellow, fg = colors.base.background },
   b = { bg = colors.base.dimmed5, fg = colors.base.yellow },
 }
 
 M.visual = {
-  a = { bg = colors.base.magenta, fg = colors.base.black },
+  a = { bg = colors.base.magenta, fg = colors.base.background },
   b = { bg = colors.base.dimmed5, fg = colors.base.magenta },
 }
 
 M.replace = {
-  a = { bg = colors.base.red, fg = colors.base.black },
+  a = { bg = colors.base.red, fg = colors.base.background },
   b = { bg = colors.base.dimmed5, fg = colors.base.red },
 }
 
 M.inactive = {
-  a = { bg = colors.base.black, fg = colors.base.yellow },
-  b = { bg = colors.base.black, fg = colors.base.black },
-  -- c = { bg = colors.base.black, fg = colors.base.black },
+  a = { bg = colors.base.background, fg = colors.base.yellow },
+  b = { bg = colors.base.background, fg = colors.base.background },
+  -- c = { bg = colors.base.background, fg = colors.base.background },
 }
 
 --M.options = {
