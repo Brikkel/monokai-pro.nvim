@@ -184,7 +184,7 @@ M.get = function(filter)
 
   cs.statusBar = {
     -- background = p.dark1,
-    background = p.dark2,
+    background = p.background,
     foreground = p.dimmed3,
     activeForeground = p.dimmed1,
   }
