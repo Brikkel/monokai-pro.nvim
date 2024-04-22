@@ -20,7 +20,6 @@ end
 M.setup = function(options)
   config.setup(options)
   command.create_filter_command()
-  lualine.setup()
 end
 
 return M
