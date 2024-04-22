@@ -2,7 +2,6 @@ local config = require("monokai-pro.config")
 local util = require("monokai-pro.util")
 local theme = require("monokai-pro.theme")
 local command = require("monokai-pro.command")
-local lualine = require("monokai-pro.lualine")
 
 ---@class MonokaiPro
 local M = {}
