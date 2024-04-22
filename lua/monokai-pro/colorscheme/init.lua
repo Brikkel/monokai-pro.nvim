@@ -226,6 +226,7 @@ M.get = function(filter)
     magenta = p.accent6, -- "#ab9df2",
     cyan = p.accent5, -- "#78dce8",
     white = p.text, -- "#fcfcfa",
+    background = p.background, -- 2a2d2e
     dimmed1 = p.dimmed1, -- "#c1c0c0",
     dimmed2 = p.dimmed2, -- "#939293",
     dimmed3 = p.dimmed3, -- "#727072",
