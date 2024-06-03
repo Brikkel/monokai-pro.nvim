@@ -16,8 +16,8 @@ M.normal = {
 }
 
 M.insert = {
-  a = { bg = colors.base.orange, fg = colors.base.background },
-  b = { bg = colors.base.dimmed5, fg = colors.base.orange },
+  a = { bg = colors.base.cyan, fg = colors.base.background },
+  b = { bg = colors.base.dimmed5, fg = colors.base.cyan },
 }
 
 M.command = {
