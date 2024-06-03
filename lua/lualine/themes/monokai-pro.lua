@@ -16,8 +16,8 @@ M.normal = {
 }
 
 M.insert = {
-  a = { bg = colors.base.green, fg = colors.base.background },
-  b = { bg = colors.base.dimmed5, fg = colors.base.green },
+  a = { bg = colors.base.orange, fg = colors.base.background },
+  b = { bg = colors.base.dimmed5, fg = colors.base.orange },
 }
 
 M.command = {
@@ -26,8 +26,8 @@ M.command = {
 }
 
 M.visual = {
-  a = { bg = colors.base.magenta, fg = colors.base.background },
-  b = { bg = colors.base.dimmed5, fg = colors.base.magenta },
+  a = { bg = colors.base.blue, fg = colors.base.background },
+  b = { bg = colors.base.dimmed5, fg = colors.base.blue },
 }
 
 M.replace = {
@@ -36,7 +36,7 @@ M.replace = {
 }
 
 M.inactive = {
-  a = { bg = colors.base.background, fg = colors.base.yellow },
+  a = { bg = colors.base.background, fg = colors.base.accent },
   b = { bg = colors.base.background, fg = colors.base.background },
   -- c = { bg = colors.base.background, fg = colors.base.background },
 }
