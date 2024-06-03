@@ -232,7 +232,7 @@ M.get = function(filter)
     dimmed3 = p.dimmed3, -- "#727072",
     dimmed4 = p.dimmed4, -- "#5b595c",
     dimmed5 = p.dimmed5, -- "#403e41",
-    accent = p.accent2, -- blue,
+    accent = p.accent5, -- blue,
   }
 
   cs = vim.tbl_deep_extend("force", cs, Config.overrideScheme and Config.overrideScheme(cs, p, Config, hp) or {})
